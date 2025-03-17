@@ -7,7 +7,7 @@ function mincost(arr)
 	while(arr.length>1){
 		let first=arr.shift();
 		let second=arr.shift();
-	}
+	
 	let cost=first+second;
 	totalcost=totalcost+cost;
 
@@ -16,5 +16,6 @@ function mincost(arr)
   
 }
 return totalcost;
-
+}
+return mincost;
 module.exports=mincost;
